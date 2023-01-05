@@ -17,5 +17,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="send fake event" />
+
+        <TextView
+            android:id="@+id/eventReceivedDisplayTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Aucun évènement reçu"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
